@@ -4,7 +4,7 @@ public enum Civility {
     M("Monsieur"), MME("Madame"), DR("Doctor"), ME("Maitre");
     private String title;
 
-    private Civility(String title) {
+    Civility(String title) {
         this.title = title;
     }
 
