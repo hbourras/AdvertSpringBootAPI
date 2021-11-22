@@ -11,6 +11,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.annotation.Bean;
 
+import java.math.BigDecimal;
 import java.sql.Date;
 import java.time.LocalDate;
 import java.time.Month;
@@ -47,7 +48,7 @@ public class DemoApplication {
 
 			Advert samsung = Advert.builder()
 					.creationDate(Calendar.getInstance().getTime())
-					.price((float) 299.95)
+					.price( new BigDecimal("299.95"))
 					.seller(hbo)
 					.title("Samsung Galaxy S10+ 128Go Blanc")
 					.description("Teléphone occasion en très bon état, fourni avec facture et accessoire")
