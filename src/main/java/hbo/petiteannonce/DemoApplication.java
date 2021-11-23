@@ -38,9 +38,9 @@ public class DemoApplication {
 
 			Seller mde = Seller.builder()
 					.civility(Civility.M)
-					.firstname("March")
-					.lastname("Decade")
-					.email("mdecade@gmail.com")
+					.firstname("John")
+					.lastname("Doe")
+					.email("john.doe@gmail.com")
 					.birthDate(Date.valueOf(LocalDate.of(1976, Month.OCTOBER, 31)))
 					.build();
 			sellerRepo.saveAll(Arrays.asList(hbo,mde));

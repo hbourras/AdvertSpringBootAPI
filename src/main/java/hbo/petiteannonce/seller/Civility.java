@@ -1,7 +1,7 @@
 package hbo.petiteannonce.seller;
 
 public enum Civility {
-    M("Monsieur"), MME("Madame"), DR("Doctor"), ME("Maitre");
+    M("Monsieur"), MME("Madame"), DR("Docteur"), ME("Maître");
     private String title;
 
     Civility(String title) {
