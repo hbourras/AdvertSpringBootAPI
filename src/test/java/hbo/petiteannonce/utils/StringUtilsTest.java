@@ -1,4 +1,4 @@
-package hbo.petiteannonce;
+package hbo.petiteannonce.utils;
 
 import hbo.petiteannonce.utils.StringUtils;
 import org.junit.Assert;
